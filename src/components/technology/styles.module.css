@@ -1,0 +1,214 @@
+.mainDiv {
+ background-image: url(../../assets/technology/background-technology-desktop.jpg);   
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.titlePage {
+    color: white;
+    padding: 3% 12%;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.imgMobile {
+    display: none;
+}
+.imgDescription {
+    display: block;
+}
+.spanTitle {
+    color: rgb(67, 65, 65);
+    margin-right: 0.9%;
+}
+.subDiv {
+    margin-top: -5%;
+    display: flex;
+    padding: 0 0 0 4%;
+}
+.btnDiv {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    padding: 8%;
+    margin-bottom: 5%;
+}
+.descriptionItem {
+    color: white;
+    display: flex;
+    margin-top: 4%;
+}
+.buttonSelect {
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 20%;
+    background-color: transparent;
+    border: 1px solid rgb(139, 141, 143);
+    color: white;
+}
+.textDescription {
+    margin-top: 6.5%;
+
+}
+.textDescription h1 { 
+text-transform: uppercase;
+font-size: 55px;
+margin-bottom: 4%;
+}
+.textDescription h3 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.details {
+    padding-right: 35.5%;
+    line-height: 30px;
+}
+.btnSelect {
+    height: 90px;
+    width: 90px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-bottom: 20%;
+    background-color: white;
+    border: none;
+    color: black;
+}
+
+@media (min-width:768px) and (max-width: 1048px ) { 
+    .textDescription h3 {
+        font-size: 12px;
+    }
+    .textDescription h1{
+        font-size: 30px;
+    }
+    .btnDiv{
+        margin:0 -5%;
+    }
+    .descriptionItem img {
+        width: 350px;
+        height: 350px;
+        margin-top: 15%;
+    }
+}
+
+@media (min-width:453px) and (max-width: 768px ) { 
+    .mainDiv {
+        background-image: url(../../assets/technology/background-technology-tablet.jpg);  
+    }
+    .titlePage {
+        text-align: center;
+    }
+    .subDiv {
+        display: block;
+        padding: 0;
+    }
+    .btnDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        margin-top: 10%;
+        padding: 0;
+    }
+    .btnSelect {
+        margin: 0;
+        text-align: center;
+    }
+    .buttonSelect {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .textDescription {
+        padding: 2%;
+        text-align: center;
+    }
+    .descriptionItem {
+        display: block;
+    }
+    .descriptionItem img {
+        height: 0;
+        width: 0;
+    }
+    .details {
+        padding: 0;
+    }
+    .imgDescription {
+        display: none;
+    }
+    .imgMobile {
+        padding: 5% 5% 10% 5%;
+        display: block;
+    }
+    .descriptionItem img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media (min-width:250px) and (max-width: 453px ) {
+    .titlePage {
+        text-align: center;
+        font-size: 25px;
+    }
+    .subDiv {
+        display: block;
+        padding: 0;
+    }
+    .btnDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0;
+        margin-top: 10%;
+        padding: 0;
+    }
+    .btnSelect {
+        margin: 0;
+        text-align: center;
+    }
+    .buttonSelect {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .textDescription {
+        padding: 2%;
+        text-align: center;
+    }
+    .textDescription h1 {
+        font-size: 40px;
+    }
+    .descriptionItem {
+        display: block;
+    }
+    .descriptionItem img {
+        height: 0;
+        width: 0;
+    }
+    .details {
+        padding: 0 5%;
+    }
+    .imgDescription {
+        display: none;
+    }
+    .imgMobile {
+        padding: 5% 5% 10% 5%;
+        display: block;
+    }
+    .descriptionItem img {
+        height: 100%;
+        width: 100%;
+    }
+ }
+ 
+@media (min-width:250px) and (max-width: 453px ) { 
+    .mainDiv {
+        background-image: url(../../assets/technology/background-technology-mobile.jpg);  
+    }
+    .titlePage {
+        margin-top: 10%;
+    }
+}

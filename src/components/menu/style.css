@@ -1,0 +1,162 @@
+.link {
+    text-decoration: none;
+    color: rgb(230, 227, 227);
+}
+.spanLi {
+    display: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+    margin-left: 2%;
+}
+.headerImg {
+    height: 50px;
+    width: 50px;
+    margin: 0 2%;
+    margin-top: -1%;
+}
+.headerHr {
+    background-color: rgb(181, 177, 177);
+    height: 2.5px;
+    margin-left: 3%;
+    width: 47%;
+    display: flex;
+    margin-top: -3px;
+}
+.headerUl {
+    color: rgb(230, 227, 227);
+    margin-left: -2%;
+    padding-left: 2%;
+    backdrop-filter: blur(30px);
+    width: 60%;
+    height: 70px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 8%;
+}
+.headerLi {
+    list-style: none;
+    margin-right: 2%;
+}
+.headerSpan {
+    color: white;
+    font-weight: bold;
+    margin-right: 10%;
+    
+}
+.inactive {
+    color: rgb(230, 227, 227);
+}
+a.link.active {
+    color: rgb(230, 227, 227);
+    display: block;
+    margin-top: 25px;
+}
+a.link.active::after {
+    background-color:  rgb(230, 227, 227);
+    height: 2px;
+    width: 100%;
+    margin-left: 2.5%;
+    display: block;
+    content: "";
+    margin-top: 21.5px;
+}
+.reactHeader {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 19, 76);
+}
+
+@media (min-width: 250px) and (max-width: 426px) {
+    .header {
+        display: flex;
+        margin-top: -8%;
+        margin-bottom: -8%;
+    }
+    .headerUl {
+        margin-top: 5%;
+        margin-left: 55%;
+        backdrop-filter: none;
+    }
+    .headerHr {
+        display: none;
+    }
+    .headerLi { 
+        display: none;
+    }
+    .spanLi {
+        display: block;
+    }
+    .spanBurger {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background: url(../../assets/shared/icon-hamburger.svg) center center no-repeat;
+    }
+    .showLi {
+        display: flex;        
+        line-height: 25px;
+        margin-top: 1%; 
+        align-items: start;
+    }
+    .showUl {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-left: -100%;
+        backdrop-filter: none;
+    }
+    .showHeader {
+        height: 200px;
+        display: flex;
+        margin-top: 0%;
+    }
+    .showImg {
+        align-self: start;
+    }
+    a.link.active {
+        display: block;
+        height: 60%;
+        margin-top: 0px;
+    }
+    a.link.active::after {
+        height: 2px;
+        margin-left: 2.5%;
+        display: block;
+        content: "";
+        margin-top: 10px;
+    }
+    .btnBurguer {
+        margin-left: 450%;
+        margin-top: -20%;
+        background: url(../../assets/shared/icon-close.svg) center center no-repeat;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) { 
+.headerSpan {
+    display: none;
+}
+.headerLi {
+    font-size: 10px;
+    margin-right: 5%;
+}
+.headerHr {
+    width: 20%;
+    margin-left: -2%;
+}
+}
+
+@media (min-width: 769px) and (max-width: 930px) {
+    .headerLi {
+        font-size: 12px;
+        margin-right: 5%;
+    }
+  }

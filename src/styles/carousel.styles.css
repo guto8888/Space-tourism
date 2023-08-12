@@ -1,0 +1,32 @@
+.carousel-indicators {
+    margin-left: -50%;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: grey;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    opacity: 100%;
+    margin: 0.5%;
+    margin-top: -5%;
+}
+.carousel-indicators .active {
+    opacity: 100%;
+    background-color: white;
+}
+.carousel-control-prev, .carousel-control-next {
+    display: none   
+}
+
+@media (min-width: 250px) and (max-width:1050px ) {
+    .carousel-indicators [data-bs-target]{ 
+    margin-top: 0%;
+    }
+}
+
+@media (min-width: 250px) and (max-width:768px ) {  
+    .carousel-indicators {
+        margin-left: 0%;
+        width: 100%;
+    } 
+}

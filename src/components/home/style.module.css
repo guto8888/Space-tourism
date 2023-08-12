@@ -1,0 +1,134 @@
+.backgroundImg {
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.home {
+    color: white;
+    display: flex;   
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text {
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    padding: 0 0 0 11.5%;
+}
+.button {
+    width: 50%;
+    margin-top: 15%;
+}
+.firstP {
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.secondP {
+    font-size: 20px;
+    padding: 0 41% 0 0;
+}
+.h1 {
+    font-size: 180px;
+    margin-top: -15px;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+}
+.btn {
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 40px;
+    margin-top: 5%;
+}
+
+@media (min-width: 769px) and (max-width: 1001px) {
+    .firstP {
+        font-size: 25px;
+    }
+    .secondP {
+        font-size: 15px;
+    }
+    .h1 {
+        font-size: 140px;
+    }
+    .btn {
+        height: 200px;
+        width: 200px;
+        font-size: 30px;
+    }
+}
+
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .backgroundImg {
+        background-image: url(../../assets/home/background-home-tablet.jpg);
+    }
+    .home {
+        color: white;
+        display: block;   
+        text-align: center;
+    }
+    .firstP {
+        font-size: 15px;
+        margin-left: -12%;
+    }
+    .secondP {
+        font-size: 10px;
+        margin: 0;
+        padding: 0;
+        padding-right: 15%;
+    }
+    .h1 {
+        font-size: 110px;
+        margin-left: -12%;
+    }
+    .btn {
+        
+        height: 200px;
+        width: 200px;
+        font-size: 20px;
+        margin-bottom: 30%;
+    }
+    .button {
+        width: 100%;
+    }
+ 
+}
+
+@media (min-width: 250px) and (max-width: 426px) {
+    .backgroundImg {
+        background-image: url(../../assets/home/background-home-mobile.jpg);
+    }
+    .home {
+        color: white;
+        display: block;   
+        text-align: center;
+    }
+    .firstP {
+        align-self: center;
+        font-size: 15px;
+        margin-left: -15%;
+    }
+    .secondP {
+        font-size: 10.5px;
+        margin: 0;
+        padding: 0;
+        padding-right: 15%;
+    }
+    .h1 {
+        font-size: 70px;
+        margin-left: -15%;
+    }
+    .btn {
+        height: 180px;
+        width: 180px;
+        font-size: 25px;
+        margin-bottom: 30%;
+    }
+    .button {
+        width: 100%;
+    }
+ 
+}

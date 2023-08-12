@@ -1,0 +1,120 @@
+.bgImg {
+    background-image: url(../../assets/crew/background-crew-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    text-transform: uppercase;
+    color: white;
+    padding: 3% 12%;
+    font-size: 35px;
+}
+.carouselImg {
+    height: 550px;
+    width: 550px;
+}
+.spanTitle {
+    color: rgb(67, 65, 65);
+    margin-right: 1%;
+}
+.description {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10%;
+    padding-bottom: 0;
+    color: white;
+    margin-top: -10%;
+    margin-left: 2%;
+}
+.descriptionCarousel {
+    margin-top: 7%;
+}
+.descText {
+    padding-right: 36%;
+}
+.h1Text {
+    text-transform: uppercase;
+    font-size: 58px;
+    margin-bottom: 5%;
+}
+.h3Text {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+@media (min-width: 250px) and (max-width:1240px ) {
+ .descText {
+    padding-right: 0%;
+    padding-bottom: 20%;
+    margin-bottom: 20%;
+ }
+   .h1Text {
+    font-size: 40px;
+   }
+}
+
+@media (min-width: 769px) and (max-width:1000px ) { 
+    .carouselImg {
+        height: 350px; 
+        width: 350px; 
+    }
+}
+
+@media (min-width: 250px) and (max-width:768px ) { 
+    .bgImg {
+        background-image: url(../../assets/crew/background-crew-tablet.jpg);
+    } 
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .descText {
+        margin: 0;
+        margin-bottom: 10%;
+        padding: 0;
+    }
+    .title {
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10%;
+    }
+    .descriptionCarousel {
+        text-align: center;
+    }
+
+}
+
+ @media (min-width: 250px) and (max-width:597px ) {  
+    .carouselImg {
+        height: 70%;
+        width: 70%;
+    }  
+    .divImgCarousel {
+        width: 100%;
+        text-align: center;
+    }
+ }
+
+ @media (min-width: 250px) and (max-width: 425px) {
+    .bgImg {
+        background-image: url(../../assets/crew/background-crew-mobile.jpg);
+    }
+ }
+
+@media (min-width: 250px) and (max-width:392px ) { 
+    .title {
+        font-size: 25px;
+    }
+
+    .h1Text, .h3Text {
+        font-size: 30px;
+    }
+
+    .descText {
+        font-size: 20px;
+    }
+ }
